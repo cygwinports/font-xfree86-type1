@@ -1,0 +1,5 @@
+category: X11
+requires: mkfontdir mkfontscale fontconfig xorg-encodings
+sdesc: "Xorg XFree86 Type1 fonts"
+ldesc: "Xorg XFree86 Type1 fonts"
+

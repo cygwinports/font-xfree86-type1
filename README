@@ -1,0 +1,53 @@
+xorg-font-xfree86-type1
+------------------------------------------
+Xorg XFree86 Type1 fonts
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.7-1
+  fontconfig-2.2.2-1
+  gawk-3.1.5-2
+  make-3.80-1
+  mkfontdir-1.0.1-1
+  mkfontscale-1.0.1-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://xorg.freedesktop.org/
+
+Canonical download:
+  http://xorg.freedesktop.org/releases/individual/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xorg-font-xfree86-type1-1.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xorg-font-xfree86-type1-1.0.0-X.cygport all
+
+This will create:
+  /usr/src/xorg-font-xfree86-type1-1.0.0-X-src.tar.bz2
+  /usr/src/xorg-font-xfree86-type1-1.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/xorg-font-xfree86-type1.sh
+  /usr/share/doc/Cygwin/xorg-font-xfree86-type1-1.0.0.README
+  /usr/share/doc/xorg-font-xfree86-type1-1.0.0/COPYING
+  /usr/share/doc/xorg-font-xfree86-type1-1.0.0/ChangeLog
+  /usr/share/fonts/Type1/cursor.pfa
+
+------------------
+
+Port Notes:
+
+----- version 1.0.0-1 -----
+Initial Cygwin release of modular X11R7.0.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
